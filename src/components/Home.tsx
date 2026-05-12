@@ -35,8 +35,8 @@ export const Home = () => {
                 </div>
 
             </div>
-            <div className="flex-1 flex justify-center items-center">
-                <img className="block overflow-hidden max-h-full max-w-full" src="./home.png" alt="" />
+            <div className="flex-1 flex justify-center items-center ">
+                <img className="max-w-full max-h-full" src="./home.png" alt="" />
             </div>
         </div>
     )

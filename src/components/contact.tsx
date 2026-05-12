@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <div className="bg-[#202733] h-full w-full text-white ">
+    <div className="bg-[#202733] h-[90%] w-full text-white ">
       <p className="mb-4 font-medium text-2xl text-center">Contact</p>
       <div className="flex ">
         <div className="flex-1 py-3 px-10 space-y-4 flex flex-col gap-5 ">
@@ -9,7 +9,7 @@ export const Contact = () => {
             Have a project in mind or want to discuss an opportunity?
             <br /> Feel free to reach out.
           </p>
-          <div className="flex space-x-24  flex-5 ">
+          <div className="flex space-x-20  flex-5 ">
             <div className="space-y-10">
               <div>
                 <div className="flex gap-2">

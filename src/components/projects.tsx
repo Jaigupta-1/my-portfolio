@@ -1,10 +1,31 @@
-export const Projects = () =>{
-    return (
-        <div className="bg-[#202733] h-full text-white">
-            <h2>My Projects</h2>
-            <div className="h-4 w-3 border-2">
-                <p>E-commerce Project</p>
-            </div>
-        </div>
-    )
-}
+import { Cards } from "./Project-Cards";
+
+export const Projects = () => {
+  return (
+    <section className="min-h-[90%] bg-[#202733] px-6 py-2 text-white">
+      
+      {/* Heading */}
+      <div className="mx-auto max-w-3xl text-center ">
+        {/* <p className="mb-2 text-sm font-medium uppercase tracking-[4px] text-blue-400">
+          Portfolio
+        </p> */}
+
+        <h1 className="text-2xl font-bold md:text-3xl">
+          Featured Projects
+        </h1>
+
+        <p className="mt-2 text-zinc-400 text-sm">
+          A collection of my recent work, personal projects, and full-stack
+          applications built with modern web technologies.
+        </p>
+      </div>
+
+      {/* Cards Grid */}
+      <div className="mx-auto mt-5 grid max-w-7xl grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 justify-items-center">
+        <Cards />
+        <Cards />
+        <Cards />
+      </div>
+    </section>
+  );
+};

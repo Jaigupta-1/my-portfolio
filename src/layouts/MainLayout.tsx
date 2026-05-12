@@ -1,11 +1,13 @@
-import { Outlet } from "react-router-dom"
-import { Navbar } from "../components/Navbar"
+import { Outlet } from "react-router-dom";
+import { Navbar } from "../components/Navbar";
 
-export const MainLayout = () =>{
-return (
+export const MainLayout = () => {
+  return (
     <>
-    <Navbar/>
-    <Outlet/>
+      <div className="h-screen w-full">
+        <Navbar />
+        <Outlet />
+      </div>
     </>
-)
-}
+  );
+};
