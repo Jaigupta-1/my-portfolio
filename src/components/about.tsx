@@ -1,9 +1,9 @@
 export const About = () => {
   return (
-    <div className="bg-[#202733] h-[90%] flex flex-col text-white justify-center items-center min-sm:flex-row">
-      <div className="flex-1 max-w-2xl flex flex-col">
+    <div className="bg-[#202733] h-[90%] flex flex-col text-white justify-center items-center sm:flex-row">
+      <div className="flex-1 max-w-2xl flex flex-col p-5 gap-8">
         <p className="font-medium text-2xl">Know Who I'M</p>
-        <p className=" font-light text-lg tracking-widest leading-5 ">
+        <p className=" font-light text-lg tracking-widest leading-6 ">
           Hi! I’m <b>Jai Kumar Gupta</b> from Kanpur, India — a passionate Full
           Stack Developer focused on building modern, scalable, and
           user-friendly web applications using React, Tailwind CSS, and backend
