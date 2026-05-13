@@ -1,8 +1,8 @@
 export const Skills = () => {
   return (
-    <div className="bg-[#202733] h-[90%] text-white w-full pl-10">
+    <div className="bg-[#202733] bg-amber-300 min-h-[90vh] text-white w-full">
       <h1 className="text-center font-medium text-xl">Skills</h1>
-      <p className="my-3">Frontend</p>
+      <p className="my-3 pl-5">Frontend</p>
       <ul className="flex gap-3 py-2 bg-[#4b5463] mx-10 justify-around ">
         <div className="text-center">
         <i className="devicon-html5-plain colored text-6xl"></i>
@@ -21,7 +21,7 @@ export const Skills = () => {
         <li>React</li>
         </div>
       </ul>
-      <p className="my-3">Backend</p>
+      <p className="my-3 pl-5">Backend</p>
       <ul className="flex gap-3 py-2 bg-[#4b5463] mx-10 justify-around ">
         <div className="text-center">
         <i className="devicon-nodejs-plain-wordmark colored text-6xl"></i>
@@ -40,7 +40,7 @@ export const Skills = () => {
         <li>PostgresSQL</li>
         </div>
       </ul>
-      <p className="my-3">Devops</p>
+      <p className="my-3 pl-5">Devops</p>
       <ul className="flex gap-3 py-2 bg-[#4b5463] justify-around mx-10">
         <div className="text-center">
         <i className="devicon-git-plain colored text-6xl"></i>

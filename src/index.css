@@ -8,4 +8,8 @@
 } */
  body{
       font-family: "Cause", cursive;
+      width: 100vw;
+      min-height: 100vh;
+      background-color: #202733;
+      overflow-x: hidden;
  }
