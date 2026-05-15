@@ -62,7 +62,7 @@ const Techs = ({ techName }) => {
 
 export const Cards = () => {
   return (
-    <div className="bg-black/40 rounded-2xl w-xs">
+    <div className="bg-[#0b1120]/30 rounded-2xl w-xs">
       <img className="h-50 w-full object-cover" src="./home.png" alt="" />
       <div className="px-4 py-4 space-y-3">
         <p className="font-semibold text-lg">E-commerce Project</p>

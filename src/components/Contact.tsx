@@ -60,7 +60,7 @@ export const Contact = () => {
               type="text"
               placeholder="Your Name..."
               name="Name"
-              className="rounded-md p-1.5 bg-black/20"
+              className="rounded-md p-1.5 bg-[#0b1120]/30"
             />
           </div>
           <div className="flex flex-col space-y-1 w-2/3 mx-auto">
@@ -69,7 +69,7 @@ export const Contact = () => {
               type="email"
               placeholder="Email..."
               name="Email"
-              className="bg-black/20 rounded-md p-1.5"
+              className="bg-[#0b1120]/30 rounded-md p-1.5"
             />
           </div>
           <div className="flex flex-col space-y-1 w-2/3 mx-auto">
@@ -78,7 +78,7 @@ export const Contact = () => {
               name="Message"
               id="Message"
               rows={5}
-              className="bg-black/20 rounded-md p-1.5"
+              className="bg-[#0b1120]/30 rounded-md p-1.5"
               placeholder="Message me..."
             ></textarea>
           </div>

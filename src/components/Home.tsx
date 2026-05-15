@@ -30,10 +30,11 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex-1 flex justify-center items-center h-full   ">
+      <div className="flex-1 flex justify-center items-center h-full bg-[#202733] ">
         <img
-          className="max-w-full h-auto object-contain "
-          src="./home.png"
+          className="max-w-full h-auto object-contain bg-[#202733]"
+          src="./home.png
+          "
           alt=""
           loading="lazy"
         />
