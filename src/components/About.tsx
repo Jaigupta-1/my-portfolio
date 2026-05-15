@@ -2,7 +2,7 @@ export const About = () => {
   return (
     <div className="h-screen pt-[10vh]">
       <p className="font-medium text-2xl text-center text-white">About</p>
-      <div className="bg-[#202733] flex flex-col text-white sm:flex-row h-[85vh] ">
+      <div className="flex flex-col text-white sm:flex-row h-[85vh] ">
         <div className="flex-1 max-w-2xl flex flex-col justify-center p-5 gap-6 h-full">
           <p className="font-medium text-2xl">Know Who I'M</p>
           <p className=" font-light text-lg tracking-wider leading-5 sm:tracking-widest sm:leading-6">

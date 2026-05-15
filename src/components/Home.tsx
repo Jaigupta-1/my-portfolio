@@ -1,7 +1,7 @@
 // import homeImage from "../public/home.png"
 export const Home = () => {
   return (
-    <div className="bg-[#202733] flex h-screen w-full flex-col md:flex-row pt-[10vh]">
+    <div className="bg-[#030712] flex h-screen w-full flex-col md:flex-row pt-[10vh]">
       <div className="flex-1 text-white flex flex-col justify-center h-full">
         <div className="w-[80%] mx-auto">
           <p className="text-amber-400 text-xl mb-2">Hello, I'm</p>
@@ -30,10 +30,10 @@ export const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex-1 flex justify-center items-center h-full bg-[#202733] ">
+      <div className="flex-1 flex justify-center items-center h-full ">
         <img
-          className="max-w-full h-auto object-contain bg-[#202733]"
-          src="./home.png
+          className="max-w-full h-auto object-contain"
+          src="./home3.png
           "
           alt=""
           loading="lazy"

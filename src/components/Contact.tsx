@@ -1,6 +1,6 @@
 export const Contact = () => {
   return (
-    <div className="bg-[#202733] h-screen w-full text-white pt-[10vh]">
+    <div className="h-screen w-full text-white pt-[10vh]">
       <p className="mb-4 font-medium text-2xl text-center">Contact</p>
       <div className="flex flex-col sm:flex-row gap-5 ">
         <div className="flex-1 py-3 md:pl-[2vw] space-y-4 flex flex-col gap-5  sm:w-1/2">
@@ -60,7 +60,7 @@ export const Contact = () => {
               type="text"
               placeholder="Your Name..."
               name="Name"
-              className="rounded-md p-1.5 bg-[#0b1120]/30"
+              className="rounded-md p-1.5 bg-[#202733]"
             />
           </div>
           <div className="flex flex-col space-y-1 w-2/3 mx-auto">
@@ -69,7 +69,7 @@ export const Contact = () => {
               type="email"
               placeholder="Email..."
               name="Email"
-              className="bg-[#0b1120]/30 rounded-md p-1.5"
+              className="bg-[#202733] rounded-md p-1.5"
             />
           </div>
           <div className="flex flex-col space-y-1 w-2/3 mx-auto">
@@ -78,7 +78,7 @@ export const Contact = () => {
               name="Message"
               id="Message"
               rows={5}
-              className="bg-[#0b1120]/30 rounded-md p-1.5"
+              className="bg-[#202733] rounded-md p-1.5"
               placeholder="Message me..."
             ></textarea>
           </div>
