@@ -1,19 +1,19 @@
 export const Contact = () => {
   return (
-    <div className="bg-[#202733] h-[90%] w-full text-white ">
+    <div className="bg-[#202733] h-screen w-full text-white pt-[10vh]">
       <p className="mb-4 font-medium text-2xl text-center">Contact</p>
-      <div className="flex ">
-        <div className="flex-1 py-3 px-10 space-y-4 flex flex-col gap-5 ">
-          <h2 className="font-medium text-lg  flex-1">Let's Work Together.</h2>
-          <p className="flex-3 font-light">
+      <div className="flex flex-col sm:flex-row gap-5 ">
+        <div className="flex-1 py-3 md:pl-[2vw] space-y-4 flex flex-col gap-5  sm:w-1/2">
+          <h2 className="font-medium pl-5 text-lg  flex-1">Let's Work Together.</h2>
+          <p className="flex-3 font-light pl-5">
             Have a project in mind or want to discuss an opportunity?
             <br /> Feel free to reach out.
           </p>
-          <div className="flex space-x-20  flex-5 ">
-            <div className="space-y-10">
+          <div className="flex flex-5 flex-col md:flex-row md:gap-2 gap-6 pl-8 md:pl-[0.5vw]" >
+            <div className=" space-y-5 md:space-y-10 ">
               <div>
-                <div className="flex gap-2">
-                  <i className="ri-phone-line text-5xl"></i>
+                <div className="flex gap-1 md:gap-2">
+                  <i className="ri-phone-line text-3xl md:text-5xl"></i>
                   <div>
                     <p className="font-medium">Phone No</p>
                     <p className="font-light">+91 8604891213</p>
@@ -21,8 +21,8 @@ export const Contact = () => {
                 </div>
               </div>
               <div>
-                <div className="flex gap-2">
-                  <i className="ri-mail-line text-5xl"></i>
+                <div className="flex gap-1 md:gap-2">
+                  <i className="ri-mail-line text-3xl md:text-5xl"></i>
                   <div>
                     <p className="font-medium">Email</p>
                     <p className="font-light">gupta002jai@gmail.com</p>
@@ -30,10 +30,10 @@ export const Contact = () => {
                 </div>
               </div>
             </div>
-            <div className="space-y-10">
+            <div className=" space-y-5 md:space-y-10">
               <div>
-                <div className="flex gap-2">
-                  <i className="ri-github-fill text-5xl"></i>
+                <div className="flex gap-1 md:gap-2">
+                  <i className="ri-github-fill text-3xl md:text-5xl"></i>
                   <div>
                     <p className="font-medium">Github</p>
                     <p className="font-light">https://github.com/Jaigupta-1</p>
@@ -41,8 +41,8 @@ export const Contact = () => {
                 </div>
               </div>
               <div>
-                <div className="flex gap-2">
-                  <i className="ri-linkedin-fill text-5xl"></i>
+                <div className="flex gap-2 w-10">
+                  <i className="ri-linkedin-fill text-3xl md:text-5xl"></i>
                   <div>
                     <p className="font-medium">Linkedin</p>
                     <p className="font-light">https://www.linkedin.com/jai-kumar-gupta-a2702b327</p>

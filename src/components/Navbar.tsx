@@ -1,51 +1,50 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 const OpenMenu = ({ handleFn }) => {
   return (
     <div className="h-52 w-full absolute top-0 right-0 flex flex-col p-1 gap-1 backdrop-blur-lg rounded ">
       <i className="ri-close-line self-end pr-10 pt-3" onClick={handleFn}></i>
       <div className="pl-5">
-        <Link to="/">
+        <a href="#home">
           <li
             className="px-3 hover:text-amber-400 transition duration-300 cursor-pointer "
             onClick={handleFn}
           >
             Home
           </li>
-        </Link>
-        <Link to="/skills">
+        </a>
+        <a href="#skills">
           <li
             className="px-3 hover:text-amber-400 transition duration-300 cursor-pointer"
             onClick={handleFn}
           >
             Skills
           </li>
-        </Link>
-        <Link to="/projects">
+        </a>
+        <a href="#projects">
           <li
             className="px-3 hover:text-amber-400 transition duration-300 cursor-pointer"
             onClick={handleFn}
           >
             My Projects
           </li>
-        </Link>
-        <Link to="/about">
+        </a>
+        <a href="#about">
           <li
             className="px-3 hover:text-amber-400 transition duration-300 cursor-pointer"
             onClick={handleFn}
           >
             About
           </li>
-        </Link>
-        <Link to="/contact">
+        </a>
+        <a href="#contact">
           <li
             className="px-3 hover:text-amber-400 transition duration-300 cursor-pointer"
             onClick={handleFn}
           >
             Contact
           </li>
-        </Link>
+        </a>
       </div>
     </div>
   );
@@ -57,37 +56,38 @@ export const Navbar = () => {
     openMenu ? setOpenMenu(false) : setOpenMenu(true);
   };
   return (
-    <div className=" bg-[#202733] text-white text-xl  h-[10vh] w-full flex justify-between items-center px-10  z-50 relative">
+    // bg-[#202733]
+    <div className="  text-white text-xl  h-[10vh] w-full flex justify-between items-center px-10 fixed top-0 left-0 z-50 backdrop-blur-md">
       <div className="tracking-wide text-2xl font-bold">
         <p>Portfolio</p> 
       </div>
       <div className="">
         <ul className="flex ">
-          <Link to="/">
-            <li className="px-3 hidden sm:block hover:text-amber-400 transition duration-300 cursor-pointer">
+          <a href="#home">
+           <li className = "px-3 hidden sm:block hover:text-amber-400 transition duration-300 cursor-pointer">
               Home
             </li>
-          </Link>
-          <Link to="/skills">
+          </a>
+          <a href="#skills">
             <li className="px-3 hidden sm:block hover:text-amber-400 transition duration-300 cursor-pointer">
               Skills
             </li>
-          </Link>
-          <Link to="/projects">
+          </a>
+          <a href="#projects">
             <li className="px-3 hidden sm:block hover:text-amber-400 transition duration-300 cursor-pointer">
               My Projects
             </li>
-          </Link>
-          <Link to="/about">
+          </a>
+          <a href="#about">
             <li className="px-3 hidden sm:block hover:text-amber-400 transition duration-300 cursor-pointer">
               About
             </li>
-          </Link>
-          <Link to="/contact">
+          </a>
+          <a href="#contact">
             <li className="px-3 hidden sm:block hover:text-amber-400 transition duration-300 cursor-pointer">
               Contact
             </li>
-          </Link>
+          </a>
           {openMenu ? (
             <OpenMenu handleFn={handleNavBar} />
           ) : (

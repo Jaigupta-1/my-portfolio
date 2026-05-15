@@ -2,7 +2,7 @@ import { Cards } from "./Project-Cards";
 
 export const Projects = () => {
   return (
-    <section className="min-h-[90%] bg-[#202733] px-6 py-2 text-white">
+    <section className="min-h-screen bg-[#202733] px-6 py-2 text-white pt-[10vh]">
       
       {/* Heading */}
       <div className="mx-auto max-w-3xl text-center ">

@@ -1,6 +1,6 @@
 export const Skills = () => {
   return (
-    <div className="bg-[#202733] bg-amber-300 min-h-[90vh] text-white w-full">
+    <div className="bg-[#202733] min-h-screen text-white w-full pt-[10vh]">
       <h1 className="text-center font-medium text-xl">Skills</h1>
       <p className="my-3 pl-5">Frontend</p>
       <ul className="flex gap-3 py-2 bg-[#4b5463] mx-10 justify-around ">
