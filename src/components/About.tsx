@@ -3,7 +3,7 @@ export const About = () => {
     <div className="h-screen pt-[10vh]">
       <p className="font-medium text-2xl text-center text-white">About</p>
       <div className="bg-[#202733] flex flex-col text-white sm:flex-row   h-[85vh] ">
-        <div className="w-1/2 max-w-2xl flex flex-col justify-center px-5 gap-8 h-full">
+        <div className="flex-1 max-w-2xl flex flex-col justify-center px-5 gap-8 h-full">
           <p className="font-medium text-2xl">Know Who I'M</p>
           <p className=" font-light text-lg tracking-wider leading-5 sm:tracking-widest sm:leading-6">
             Hi! I’m <b>Jai Kumar Gupta</b> from Kanpur, India — a passionate
@@ -18,7 +18,7 @@ export const About = () => {
             </a>
           </button>
         </div>
-        <div className="w-1/2  h-full  ">
+        <div className="flex-1  h-full  ">
           <img
             className="h-full w-full object-contain"
             src="./home.png"
