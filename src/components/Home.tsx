@@ -6,7 +6,7 @@ export const Home = () => {
         <div className="w-[80%] mx-auto">
           <p className="text-amber-400 text-xl mb-2">Hello, I'm</p>
 
-          <h1 className="text-5xl font-medium mb-4">Yogesh</h1>
+          <h1 className="text-5xl font-medium mb-4">Jai Gupta</h1>
 
           <h2 className="text-2xl text-gray-300 ">Web Application Developer</h2>
 
