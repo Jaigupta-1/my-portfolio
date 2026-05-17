@@ -10,7 +10,7 @@ export const Projects = () => {
           Portfolio
         </p> */}
 
-        <h1 className="text-2xl font-bold md:text-3xl">
+        <h1 className="text-2xl font-bold md:text-3xl text-amber-400">
           Featured Projects
         </h1>
 

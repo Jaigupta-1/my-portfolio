@@ -59,7 +59,7 @@ export const Navbar = () => {
     // bg-[#202733]
     <div className="bg-[#030712] text-white text-xl  min-h-[10vh] w-full flex justify-between items-center px-10 fixed top-0 left-0 z-10 ">
       <div className="tracking-wide text-2xl font-bold">
-        <a href="#home"><p>Portfolio</p></a>
+        <a href="#home"><p className="">Code With Jai.</p></a>
       </div>
       <div className="">
         <ul className="flex ">

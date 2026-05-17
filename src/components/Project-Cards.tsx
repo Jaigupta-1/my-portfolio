@@ -54,7 +54,7 @@
 // };
 const Techs = ({ techName }) => {
   return (
-    <button className="bg-zinc-700 rounded-2xl px-3 text-xs py-1 mr-2 font-semibold">
+    <button className="bg-zinc-700 rounded-2xl px-3 text-xs py-1 mr-2 font-semibold ">
       {techName}
     </button>
   );
@@ -62,26 +62,41 @@ const Techs = ({ techName }) => {
 
 export const Cards = () => {
   return (
-    <div className="bg-[#202733] rounded-2xl w-xs">
-      <img className="h-50 w-full object-cover" src="./home.png" alt="" />
-      <div className="px-4 py-4 space-y-3">
-        <p className="font-semibold text-lg">E-commerce Project</p>
-        <p className="text-gray-500 font-semibold text-xs tracking-wide leading-4.5">
-          A modern e-commerce platform built with React, Node.js, and Express
-          featuring authentication, cart management, and payment integration.
-        </p>
-        <div className="">
-          {["React.js", "Node.js", "Express.js"].map((tech, i) => {
-            return <Techs key={i} techName={tech} />;
-          })}
-        </div>
-        <div className="flex justify-between">
-          <button className="bg-blue-500 py-2 text-xs font-semibold px-4 rounded-lg">
-            View Project
-          </button>
-          <i className="ri-github-fill text-3xl"></i>
+    <div className="relative rounded-2xl">
+
+      {/* Glow Layer */}
+      <div className="absolute -inset-1 rounded-2xl bg-linear-to-r from-amber-400 via-purple-500 to-blue-500 blur opacity-30"></div>
+
+      {/* Main Card */}
+      <div className="relative bg-[#0b1220] rounded-2xl">
+
+        <div className="bg-[#0b1220] rounded-2xl w-xs shadow-xl/30  hover:shadow-xl/20">
+          <div className="p-4 rounded-2xl ">
+            <img className="h-45 w-full object-cover" src="./project.png" alt="" />
+          </div>
+          <div className="px-4 py-4 space-y-3">
+            <p className="font-semibold text-lg">E-commerce Project</p>
+            <p className="text-gray-500 font-semibold text-xs tracking-wide leading-4.5">
+              A modern e-commerce platform built with React, Node.js, and Express
+              featuring authentication, cart management, and payment integration.
+            </p>
+            <div className="">
+              {["React.js", "Node.js", "Express.js"].map((tech, i) => {
+                return <Techs key={i} techName={tech} />;
+              })}
+            </div>
+            <div className="flex justify-between">
+              <button className="bg-blue-500 py-2 text-xs font-semibold px-4 rounded-lg">
+                View Project
+              </button>
+              <i className="ri-github-fill text-3xl"></i>
+            </div>
+          </div>
         </div>
       </div>
+
     </div>
+
+
   );
 };

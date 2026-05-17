@@ -1,7 +1,7 @@
 export const Contact = () => {
   return (
-    <div className="h-screen w-full text-white pt-[10vh]">
-      <p className="mb-4 font-medium text-2xl text-center">Contact</p>
+    <div className="h-screen w-full text-white pt-[10vh] bg-[#050816]">
+      <p className="mb-4 font-medium text-2xl text-center text-amber-400">Contact</p>
       <div className="flex flex-col sm:flex-row gap-5 ">
         <div className="flex-1 py-3 md:pl-[2vw] space-y-4 flex flex-col gap-5  sm:w-1/2">
           <h2 className="font-medium pl-5 text-lg  flex-1">Let's Work Together.</h2>
